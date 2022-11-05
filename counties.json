@@ -61,5 +61,5 @@
 "West Glamorgan":{ "id":60,	"country": "Wales",	"Latitude": 51.58333299916172,	"Longitude":-3.7499999999999996,	"othernames":["Gorllewin Morgannwg"] },
 "West Lothian":{ "id":61,	"country": "Scotland",	"Latitude": 55.91666699975292,	"Longitude":-3.4999999999999996,	"othernames":["West Lothian"] },
 "West Sussex":{ "id":62,	"country": "England",	"Latitude": 50.99999999924944,	"Longitude":-0.41666699999999995,	"othernames":["West Sussex"] },
-"Western Isles":{ "id":63,	"country": "Scotland",	"Latitude": 57.666667000602516,	"Longitude":-7.1666669999999995,	"othernames":["Outer Hebrides"] },
+"Western Isles":{ "id":63,	"country": "Scotland",	"Latitude": 57.666667000602516,	"Longitude":-7.1666669999999995,	"othernames":["Outer Hebrides"] }
 }
