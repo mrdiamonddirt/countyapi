@@ -14,8 +14,8 @@ function alldata(request,response)
 {
     response.send(counties);
 }
-app.get('/counties/:county/',searchElement);
-function searchElement(request,response)
+app.get('/counties/:county/',searchCounty);
+function searchCounty(request,response)
 {
 	var word=request.params.county;
 	word=word.charAt(0).toUpperCase()+word.slice(1).toLowerCase();
