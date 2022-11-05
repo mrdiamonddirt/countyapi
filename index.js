@@ -3,7 +3,7 @@ var fs = require('fs');
 // json file with the data
 var data = fs.readFileSync('counties.json');
    
-var elements = JSON.parse(data);
+var counties = JSON.parse(data);
 const express = require("express");
 const app = express();
    
@@ -21,19 +21,19 @@ app.get('/counties', alldata);
    
 function alldata(request, response) {
        
-    // Returns all information about the elements
-    response.send(elements);
+    // Returns all information about the County
+    response.send(counties);
 }
   
-app.get('/counties/:county/', searchElement);
+app.get('/counties/:county/', searchcounties);
   
-function searchElement(request, response) {
-    var word = request.params.element;
+function searchcounties(request, response) {
+    var word = request.params.county;
     word = word.charAt(0).toUpperCase()
         + word.slice(1).toLowerCase();
        
-    if(elements[word]) {
-        var reply = elements[word];         
+    if(counties[word]) {
+        var reply = counties[word];         
     }
     else {
         var reply = {
