@@ -1,0 +1,29 @@
+{
+  "name": "county-api",
+  "version": "1.0.0",
+  "description": "This a Geo Location API,which will provide details regarding counties and their Longitude and latitude",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "start":"node index.js"
+    
+    
+  },
+  "keywords": [
+    "API",
+    "Counties",
+    "Countries",
+    "Communities",
+    "Geo Location",
+    "UK"
+  ],
+  "author": "Rowan Wood",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "heroku": "^7.65.0",
+    "cors":"^2.8.5"
+  }
+}
