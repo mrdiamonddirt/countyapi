@@ -4,23 +4,23 @@ This is a public JSON based API,which gives information about Uk Counties.Ideal 
 
 Base URL:
 ```
-https://county-api.herokuapp.com/
+https://county-api.onrender.com/
 ```
 
 ## Endpoints
 This Endpoint returns all the counties data at one time
 ```
-https://county-api.herokuapp.com/counties
+https://county-api.onrender.com/counties
 ```
 
 This End point returns JSON information about a specific county just search the county you want to return.
 ```
-https://county-api.herokuapp.com/counties/:county
+https://county-api.onrender.com/counties/:county
 ```
 
 ### Example URL:
 ```
-https://county-api.herokuapp.com/counties/aberdeenshire
+https://county-api.onrender.com/counties/aberdeenshire
 ```
 ## Example Response
 ```
